@@ -1,0 +1,82 @@
+.failureContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  row-gap: 1.5rem;
+}
+
+.failureImage {
+  height: 20rem;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.failureHeading {
+  font-size: 2rem;
+  color: darkblue;
+  font-weight: bold;
+  text-align: center;
+}
+
+.failureDescription {
+  font-size: 1.8rem;
+  color: grey;
+  text-align: center;
+}
+
+.retryButton {
+  padding: 1rem 2rem;
+  background-color: steelblue;
+  color: white;
+  border-radius: 8px;
+}
+
+.loaderContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-details-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.courseContainer {
+  width: 80%;
+  display: flex;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.courseImage {
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  padding: 2rem 3rem;
+}
+
+.course-name {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.course-description {
+  font-size: 1.8rem;
+  color: grey;
+}

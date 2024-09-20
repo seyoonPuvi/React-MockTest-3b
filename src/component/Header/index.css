@@ -1,0 +1,15 @@
+.websiteLogo {
+  height: 5rem;
+  width: 10rem;
+  object-fit: contain;
+  object-position: center;
+}
+
+.headerContainer {
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #f1f5f9;
+}
